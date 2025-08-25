@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocify-tailwindcss</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="w-full min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-10 relative"
+    >
+      <nav class="flex items-center">
+        <img src="./images/logo.png" alt="logo" class="w-40" />
+
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="px-2 text-white no-underline">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="px-2 text-white no-underline">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="px-2 text-white no-underline">Features</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="px-2 text-white no-underline">Contact</a>
+          </li>
+        </ul>
+        <img src="./images/cart.png" alt="cart" class="w-8" />
+      </nav>
+
+      <div class="text-white mt-48 max-w-xl leading-normal">
+        <h1 class="text-6xl font-semibold">
+          Groceries <br />
+          delevey in <span class="font-light">15 mins</span>
+        </h1>
+        <p>
+          Grocify offer a wide range of products, including fresh products,
+          meats, dairy, baked goods, and non-perishable items.
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-yellow-300 text-black px-8 py-4 rounded-full font-medium inline-block mr-8 hover:bg-transparent hover:text-white duration-300 hover:border hover:border-yellow-300 border border-transparent"
+            >Order now</a
+          >
+          <a href="#"
+            >Download App
+            <span class="text-lg inline-block rotate-90">&#10148;</span></a
+          >
+        </div>
+      </div>
+      <img
+        src="./images/grocery-image.png"
+        alt="img"
+        class="w-full lg:w-1/2 lg:absolute bottom-0 right-0 h-150"
+      />
+    </div>
+  </body>
+</html>
