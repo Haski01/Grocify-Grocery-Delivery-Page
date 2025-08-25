@@ -8,3 +8,4 @@ It provides a modern, clean, and responsive landing page for a grocery delivery 
 - **Deployment**: GitHub Pages (or any static hosting)
 
 ## Preview
+![Grocify Banner](./grocigy.png)
